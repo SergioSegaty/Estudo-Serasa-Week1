@@ -1,0 +1,30 @@
+.table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid;
+    height: 50px;
+    vertical-align: center;
+    text-align: start;
+    padding: 3px 5px;
+}
+
+tbody tr:hover {
+    background-color: rgb(155, 149, 149);
+}
+
+.tableHead {
+    margin: 20px;
+}
+
+input[type="text"] {
+    border: none;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
