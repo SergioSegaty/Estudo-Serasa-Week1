@@ -20,4 +20,5 @@ adicionarNovo = () => {
     tr.appendChild(status);
 
     tableBody.appendChild(tr);
+
 }
